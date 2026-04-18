@@ -1,0 +1,87 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+    background: #111;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cv-btn {
+    background: grey;
+    border: 0.1px whitesmoke solid;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+.cv-btn:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.cv-btn:active {
+    transform: scale(0.95);
+}
+
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #007bff;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.socials a {
+    margin: 20px;
+    color: #fff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.socials a:hover {
+    color: #007bff; /* hover glow */
+    transform : scale(1.2);
+    transition: 0.2s;
+}
